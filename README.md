@@ -1,7 +1,7 @@
 # What this repository contains
 - This repo contains an example project demonstrating how skills can be be used with ADK Agent 2.0
-- A Skill is defined inside `skills_app/skills/lucky-color `folder
-- This skill when executes, invokes `lucky-color/scripts/find_lucky_color.py` python script
+- A Skill is defined inside `skills_app/skills/car-sales `folder
+- This skill when executes, invokes `car-sales/scripts/generate_sales.py` python script
 - This skill is used programmatically by ADK Agent 2.0 `(skills_app/agent.py)`
 
 ##  How to execute
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 adk run skills_app
 ```
 **Prompt**
-`Find lucky color of female susane who is 19 years old`
+`Find car sales for the month January 2026`
 
 # License or Terms of Use
 This project is open-source. However, no part of the source code may be republished, modified, or distributed for commercial or public purposes without giving appropriate credit to the original author.
